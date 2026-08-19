@@ -20,7 +20,7 @@ Then open `http://localhost:4173`.
 - Reduced-motion behavior.
 - Direct `tel:` and official Instagram application handoffs.
 - Six user-supplied facility photos, locally optimized for web delivery and art-directed across the hero, club, fitness, wellness, and interior-gallery sections.
-- User-supplied official Elite Gladiator logo, used as a cropped header mark and full footer lockup.
+- User-supplied official Elite Gladiator logo, with a transparent background for the cropped header mark and full footer lockup.
 - Original SVG/CSS artwork layered with the supplied photography.
 - No analytics, cookies, tracking, forms, third-party scripts, or external font dependencies.
 

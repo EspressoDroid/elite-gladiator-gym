@@ -1757,7 +1757,6 @@ img {
   width: 92px;
   height: 92px;
   overflow: hidden;
-  background: var(--ink);
 }
 
 .brand-lockup img {
