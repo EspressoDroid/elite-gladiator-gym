@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="mk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080807" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="description"
+      content="Fitness • Wellness • Business во приватен клуб во Спортска сала Расадник, Скопје. Членството е ограничено на 100 членови и е со апликација."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Elite Gladiator Gym — Приватен клуб во Скопје" />
+    <meta
+      property="og:description"
+      content="Fitness • Wellness • Business. Приватен клуб ограничен на 100 членови, со членство преку апликација."
+    />
+    <meta property="og:image" content="og-card.svg" />
+    <meta property="og:locale" content="mk_MK" />
+    <title>Elite Gladiator Gym — Приватен клуб во Скопје</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Прескокни до содржината</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
+    <div class="page-grain" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="Elite Gladiator Gym — почетна" data-i18n-aria="brandHome">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/images/brand-mark.jpg" width="512" height="400" alt="" decoding="async" />
+          </span>
+          <span class="brand-name">
+            <span>ELITE</span>
+            <span>GLADIATOR</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          data-menu-toggle
+          data-i18n-aria="openMenu"
+        >
+          <span></span><span></span>
+          <span class="sr-only" data-i18n="menu">Мени</span>
+        </button>
+
+        <nav class="site-nav" id="primary-nav" aria-label="Главна навигација" data-i18n-aria="navLabel" data-nav>
+          <a href="#club" data-i18n="navClub">Клубот</a>
+          <a href="#experience" data-i18n="navExperience">Искуство</a>
+          <a href="#membership" data-i18n="navMembership">Членство</a>
+          <a href="#contact" data-i18n="navContact">Контакт</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="language-switch" role="group" aria-label="Изберете јазик" data-i18n-aria="languageLabel">
+            <button type="button" data-set-lang="mk" aria-pressed="true">MK</button>
+            <span aria-hidden="true">/</span>
+            <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+          </div>
+          <a class="header-cta" href="tel:+38978444443" data-i18n="navApply">Аплицирај</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-reveal>
+            <span class="eyebrow-line" aria-hidden="true"></span>
+            <span data-i18n="heroEyebrow">ПРИВАТЕН КЛУБ · СКОПЈЕ</span>
+          </p>
+
+          <h1 id="hero-title" data-reveal>
+            <span data-i18n="heroTitle1">Тивок луксуз.</span>
+            <em data-i18n="heroTitle2">Моќна дисциплина.</em>
+          </h1>
+
+          <p class="hero-intro" data-i18n="heroBody" data-reveal>
+            Elite Gladiator Gym ги обединува фитнесот, велнесот и бизнисот во приватна средина со фокус на хигиена, приватност и удобност.
+          </p>
+
+          <div class="hero-proof" data-reveal>
+            <span class="proof-number">100</span>
+            <span data-i18n="heroProof">членови. Членство со апликација.</span>
+          </div>
+
+          <div class="hero-actions" data-reveal>
+            <a class="button button-primary" href="tel:+38978444443">
+              <span data-i18n="applyMembership">Аплицирај за членство</span>
+              <svg viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+                <path d="M3 9h11M10 5l4 4-4 4" />
+              </svg>
+            </a>
+            <a class="button button-secondary" href="#experience">
+              <span data-i18n="exploreExperience">Истражи го искуството</span>
+            </a>
+          </div>
+
+          <p class="hero-mantra" data-reveal>
+            <span>01</span><span data-i18n="mantraTrain">Тренирај.</span>
+            <span>02</span><span data-i18n="mantraRecover">Регенерирај.</span>
+            <span>03</span><span data-i18n="mantraEnjoy">Уживај.</span>
+          </p>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <figure class="hero-photo">
+            <img
+              src="assets/images/mirrors.jpg"
+              width="900"
+              height="1200"
+              alt="Осветлени огледала и фитнес опрема во Elite Gladiator Gym."
+              data-i18n-alt="heroImageAlt"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </figure>
+
+          <div class="hero-decor" aria-hidden="true">
+            <div class="visual-halo halo-one"></div>
+            <div class="visual-halo halo-two"></div>
+            <svg class="hero-thread" viewBox="0 0 600 700" focusable="false">
+              <defs>
+                <linearGradient id="threadGold" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#6f5527" />
+                  <stop offset=".48" stop-color="#e1c27a" />
+                  <stop offset="1" stop-color="#8d6b32" />
+                </linearGradient>
+              </defs>
+              <path class="thread-path" d="M-20 512C106 505 100 378 199 363c82-13 87 84 177 54 98-33 36-191 191-246 23-8 40-10 55-8" />
+              <path class="thread-echo" d="M53 607C174 523 141 444 245 420c96-22 119 92 216 20 54-40 35-102 127-149" />
+              <circle cx="199" cy="363" r="6" />
+              <circle cx="376" cy="417" r="6" />
+            </svg>
+
+            <div class="member-orbit">
+              <span class="orbit-dot"></span>
+              <span class="orbit-label orbit-label-top">PRIVATE</span>
+              <div class="member-count">
+                <span>100</span>
+                <small data-i18n="members">ЧЛЕНОВИ</small>
+              </div>
+              <span class="orbit-label orbit-label-bottom">BY APPLICATION</span>
+            </div>
+
+            <div class="visual-note note-top">
+              <span>RASADNIK</span>
+              <span>SKOPJE</span>
+            </div>
+            <div class="visual-note note-bottom">
+              <span>FITNESS</span>
+              <span>WELLNESS</span>
+              <span>BUSINESS</span>
+            </div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#club" aria-label="Продолжи надолу" data-i18n-aria="continueDown">
+          <span data-i18n="scroll">SCROLL</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="club section-shell" id="club" aria-labelledby="club-title">
+        <div class="section-index" aria-hidden="true">01</div>
+        <div class="club-grid">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">
+              <span class="eyebrow-line" aria-hidden="true"></span>
+              <span data-i18n="clubEyebrow">ПРИВАТЕН ПО ДИЗАЈН</span>
+            </p>
+            <h2 id="club-title">
+              <span data-i18n="clubTitle1">Квалитетот се</span>
+              <em data-i18n="clubTitle2">чувствува во просторот.</em>
+            </h2>
+          </div>
+
+          <div class="club-statement" data-reveal>
+            <p class="statement-lead" data-i18n="clubLead">
+              Не повеќе луѓе. Повеќе простор за секој член.
+            </p>
+            <p data-i18n="clubBody">
+              Ограничувањето на 100 членови го чува она што го прави клубот различен: приватност, удобност и средина без непотребна гужва.
+            </p>
+            <div class="club-facts" role="list">
+              <div role="listitem">
+                <span>100</span>
+                <p data-i18n="factMembers">максимум членови</p>
+              </div>
+              <div role="listitem">
+                <span>03</span>
+                <p data-i18n="factPillars">делови од едно искуство</p>
+              </div>
+              <div role="listitem">
+                <span>01</span>
+                <p data-i18n="factClub">приватен клуб</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <figure class="club-panorama" data-reveal>
+          <img
+            src="assets/images/hero-gym.jpg"
+            width="1600"
+            height="1199"
+            alt="Широк поглед на фитнес просторот во Elite Gladiator Gym."
+            data-i18n-alt="panoramaImageAlt"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>
+            <span data-i18n="panoramaCaption">СПОРТСКА САЛА РАСАДНИК · СКОПЈЕ</span>
+            <small>FITNESS • WELLNESS • BUSINESS</small>
+          </figcaption>
+        </figure>
+
+        <div class="club-marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <div class="marquee-set">
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+            </div>
+            <div class="marquee-set">
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+              <span>FITNESS</span><i></i><span>WELLNESS</span><i></i><span>BUSINESS</span><i></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-shell" id="experience" aria-labelledby="experience-title">
+        <div class="section-index" aria-hidden="true">02</div>
+        <div class="experience-intro" data-reveal>
+          <p class="eyebrow">
+            <span class="eyebrow-line" aria-hidden="true"></span>
+            <span data-i18n="experienceEyebrow">ЦЕЛОСНО ИСКУСТВО</span>
+          </p>
+          <h2 id="experience-title">
+            <span data-i18n="experienceTitle1">Еден клуб.</span>
+            <em data-i18n="experienceTitle2">Три димензии.</em>
+          </h2>
+          <p data-i18n="experienceIntro">
+            Тренингот е само почеток. Секој дел од Elite Gladiator е создаден да има своја улога во твојот ден.
+          </p>
+        </div>
+
+        <div class="pillar-grid">
+          <article class="pillar pillar-fitness" data-reveal>
+            <figure class="pillar-media">
+              <img
+                src="assets/images/gym-floor.jpg"
+                width="1100"
+                height="1467"
+                alt="Опрема за фитнес и функционален тренинг во Elite Gladiator Gym."
+                data-i18n-alt="fitnessImageAlt"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="pillar-topline">
+              <span class="pillar-number">01</span>
+              <span data-i18n="fitnessLabel">FITNESS · ТРЕНИРАЈ</span>
+            </div>
+            <div class="pillar-content">
+              <div>
+                <h3 data-i18n="fitnessTitle">Фокус без пречки.</h3>
+                <p data-i18n="fitnessBody">
+                  Современа опрема за фитнес и функционален тренинг, дополнета со планови за тренинг и исхрана.
+                </p>
+              </div>
+              <ul class="tag-list" aria-label="Фитнес содржини" data-i18n-aria="fitnessTagsLabel">
+                <li data-i18n="tagEquipment">Современа опрема</li>
+                <li data-i18n="tagFunctional">Функционален тренинг</li>
+                <li data-i18n="tagPlans">Планови</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="pillar pillar-wellness" data-reveal>
+            <figure class="pillar-media">
+              <img
+                src="assets/images/sauna.jpg"
+                width="900"
+                height="1200"
+                alt="Сауна и велнес зона во Elite Gladiator Gym."
+                data-i18n-alt="wellnessImageAlt"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="pillar-topline">
+              <span class="pillar-number">02</span>
+              <span data-i18n="wellnessLabel">WELLNESS · РЕГЕНЕРИРАЈ</span>
+            </div>
+            <h3 data-i18n="wellnessTitle">Простор за обновување.</h3>
+            <p data-i18n="wellnessBody">
+              Сауна и велнес зона, чисти пешкири и приватна сауна во женската соблекувална.
+            </p>
+            <ul class="tag-list" aria-label="Велнес содржини" data-i18n-aria="wellnessTagsLabel">
+              <li data-i18n="tagSauna">Сауна</li>
+              <li data-i18n="tagTowels">Чисти пешкири</li>
+              <li data-i18n="tagPrivacy">Приватност</li>
+            </ul>
+          </article>
+
+          <article class="pillar pillar-business" data-reveal>
+            <div class="pillar-topline">
+              <span class="pillar-number">03</span>
+              <span data-i18n="businessLabel">BUSINESS · ПОВРЗИ СЕ</span>
+            </div>
+            <div class="pillar-icon" aria-hidden="true">
+              <svg viewBox="0 0 180 130" focusable="false">
+                <path d="M24 38h132v68H24V38Zm0 22h132M60 38V22h60v16M77 77h26" />
+              </svg>
+            </div>
+            <h3 data-i18n="businessTitle">Амбиција што продолжува.</h3>
+            <p data-i18n="businessBody">
+              Elite Business Club е дел од концептот Fitness • Wellness • Business на клубот.
+            </p>
+            <ul class="tag-list" aria-label="Бизнис содржини" data-i18n-aria="businessTagsLabel">
+              <li data-i18n="tagCommunity">Заедница</li>
+              <li data-i18n="tagContacts">Контакти</li>
+              <li data-i18n="tagOpportunities">Можности</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="club-gallery" aria-labelledby="gallery-title">
+          <div class="gallery-heading" data-reveal>
+            <div>
+              <p class="eyebrow">
+                <span class="eyebrow-line" aria-hidden="true"></span>
+                <span data-i18n="galleryEyebrow">ВНАТРЕ ВО КЛУБОТ</span>
+              </p>
+              <h3 id="gallery-title" data-i18n="galleryTitle">Просторот одблиску.</h3>
+            </div>
+            <p data-i18n="galleryBody">Фитнес и функционална опрема во препознатливиот амбиент на Elite Gladiator Gym.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-item-dumbbells" data-reveal>
+              <img
+                src="assets/images/dumbbells.jpg"
+                width="900"
+                height="1200"
+                alt="Редови тегови пред осветлени огледала во Elite Gladiator Gym."
+                data-i18n-alt="dumbbellsImageAlt"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption><span>01</span><strong data-i18n="galleryDumbbells">СЛОБОДНИ ТЕЖИНИ</strong></figcaption>
+            </figure>
+
+            <figure class="gallery-item gallery-item-strength" data-reveal>
+              <img
+                src="assets/images/strength.jpg"
+                width="900"
+                height="1200"
+                alt="Опрема за тренинг на сила во Elite Gladiator Gym."
+                data-i18n-alt="strengthImageAlt"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption><span>02</span><strong data-i18n="galleryStrength">СИЛА И ФУНКЦИЈА</strong></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="rhythm" aria-labelledby="rhythm-title" data-reveal>
+          <div class="rhythm-copy">
+            <p class="eyebrow" data-i18n="rhythmEyebrow">ТВОЈОТ РИТАМ</p>
+            <h3 id="rhythm-title" data-i18n="rhythmTitle">Три моменти. Една адреса.</h3>
+          </div>
+          <ol class="rhythm-track">
+            <li>
+              <span>01</span>
+              <strong data-i18n="rhythmTrain">Тренирај</strong>
+            </li>
+            <li>
+              <span>02</span>
+              <strong data-i18n="rhythmRecover">Регенерирај</strong>
+            </li>
+            <li>
+              <span>03</span>
+              <strong data-i18n="rhythmConnect">Поврзи се</strong>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="membership" id="membership" aria-labelledby="membership-title">
+        <div class="membership-shell section-shell">
+          <div class="section-index" aria-hidden="true">03</div>
+          <div class="membership-visual" aria-hidden="true" data-reveal>
+            <svg viewBox="0 0 600 680" focusable="false">
+              <path class="membership-line" d="M-40 538c127-61 209-59 277 1 73 65 155 66 223 0 47-46 102-57 180-15" />
+              <circle cx="300" cy="310" r="225" />
+              <circle cx="300" cy="310" r="164" />
+              <path d="M140 310h320M300 85v450" />
+            </svg>
+            <div class="membership-number">100</div>
+            <span class="membership-caption" data-i18n="membershipCaption">НАМЕРНО ОГРАНИЧЕНО</span>
+          </div>
+
+          <div class="membership-content">
+            <p class="eyebrow" data-reveal>
+              <span class="eyebrow-line" aria-hidden="true"></span>
+              <span data-i18n="membershipEyebrow">ЧЛЕНСТВО</span>
+            </p>
+            <h2 id="membership-title" data-reveal>
+              <span data-i18n="membershipTitle1">Членството започнува</span>
+              <em data-i18n="membershipTitle2">со апликација.</em>
+            </h2>
+            <p class="membership-lead" data-i18n="membershipLead" data-reveal>
+              Приватен клуб, ограничен на 100 членови.
+            </p>
+
+            <ol class="application-steps" data-reveal>
+              <li>
+                <span>01</span>
+                <div>
+                  <h3 data-i18n="stepExploreTitle">Истражи</h3>
+                  <p data-i18n="stepExploreBody">Запознај ги Fitness, Wellness и Business искуствата на клубот.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <h3 data-i18n="stepContactTitle">Контактирај нѐ</h3>
+                  <p data-i18n="stepContactBody">Јави се за информации за членството и процесот на аплицирање.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <h3 data-i18n="stepApplyTitle">Аплицирај</h3>
+                  <p data-i18n="stepApplyBody">Следи ги чекорите споделени директно од тимот на клубот.</p>
+                </div>
+              </li>
+            </ol>
+
+            <a class="button button-dark" href="tel:+38978444443" data-reveal>
+              <span data-i18n="askApplying">Прашај за аплицирање</span>
+              <svg viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+                <path d="M3 9h11M10 5l4 4-4 4" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="section-index" aria-hidden="true">04</div>
+        <div class="contact-main">
+          <div class="contact-heading" data-reveal>
+            <p class="eyebrow">
+              <span class="eyebrow-line" aria-hidden="true"></span>
+              <span data-i18n="contactEyebrow">СЛЕДНИОТ ЧЕКОР</span>
+            </p>
+            <h2 id="contact-title">
+              <span data-i18n="contactTitle1">Започни ја</span>
+              <em data-i18n="contactTitle2">апликацијата.</em>
+            </h2>
+            <p data-i18n="contactBody">
+              За информации за членство и аплицирање, контактирај го Elite Gladiator Gym директно.
+            </p>
+          </div>
+
+          <div class="contact-actions" data-reveal>
+            <a class="contact-link phone-link" href="tel:+38978444443">
+              <span data-i18n="phoneLabel">ТЕЛЕФОН</span>
+              <strong>078 444 443</strong>
+              <svg viewBox="0 0 28 28" aria-hidden="true" focusable="false">
+                <path d="m6 7 4-2 3 6-3 2c2 4 4 6 8 8l2-3 6 3-2 4c-1 2-4 2-6 1C10 23 5 18 2 10 1 8 3 6 6 7Z" />
+              </svg>
+            </a>
+            <a
+              class="contact-link instagram-link"
+              href="https://www.instagram.com/elitegladiator_/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram — се отвора во нов таб"
+              data-i18n-aria="instagramAria"
+            >
+              <span>INSTAGRAM</span>
+              <strong>@elitegladiator_</strong>
+              <svg viewBox="0 0 28 28" aria-hidden="true" focusable="false">
+                <path d="M7 3h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z" />
+                <circle cx="14" cy="14" r="5" />
+                <circle cx="21" cy="7" r="1" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="location-card" data-reveal>
+          <div class="location-copy">
+            <span data-i18n="locationLabel">ЛОКАЦИЈА</span>
+            <h3 data-i18n="locationTitle">Спортска сала Расадник</h3>
+            <p data-i18n="locationBody">Скопје, Северна Македонија</p>
+          </div>
+          <div class="location-coordinates" aria-hidden="true">
+            <span>SPORTSKA SALA</span>
+            <span>RASADNIK · SKOPJE</span>
+          </div>
+          <svg class="location-art" viewBox="0 0 700 220" aria-hidden="true" focusable="false">
+            <path d="M0 184h700M70 184V42m112 142V87m112 97V24m112 160V69m112 115V38m112 146V96" />
+            <path class="location-route" d="M0 153c102-3 112-72 203-63 104 10 86 83 190 65 77-13 88-67 160-69 55-2 91 24 147 10" />
+            <circle cx="393" cy="155" r="8" />
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand footer-brand" href="#home" aria-label="Elite Gladiator Gym — почетна" data-i18n-aria="brandHome">
+        <span class="brand-lockup" aria-hidden="true">
+          <img src="assets/images/brand-lockup.jpg" width="640" height="647" alt="" loading="lazy" decoding="async" />
+        </span>
+        <span class="brand-name"><span>ELITE</span><span>GLADIATOR</span></span>
+      </a>
+      <p>FITNESS <i></i> WELLNESS <i></i> BUSINESS</p>
+      <div class="footer-meta">
+        <span>© 2026 ELITE GLADIATOR GYM</span>
+        <a href="https://www.instagram.com/elitegladiator_/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+        <a href="#home" data-i18n="backTop">НАЗАД ГОРЕ ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
